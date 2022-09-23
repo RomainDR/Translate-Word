@@ -98,66 +98,12 @@ string WordSelected(int _lang, int _word) {
 
     //dans le cas du francais
     if (_lang == 1) {
-        if (_word == 1) {
-            _returnWord = enWord[_word - 1];
-        }
-        else if (_word == 2) {
-            _returnWord = enWord[_word - 1];
-        }
-        else if (_word == 3) {
-            _returnWord = enWord[_word - 1];
-        }
-        else if (_word == 4) {
-            _returnWord = enWord[_word - 1];
-        }
-        else if (_word == 5) {
-            _returnWord = enWord[_word - 1];
-        }
-        else if (_word == 6) {
-            _returnWord = enWord[_word - 1];
-        }
-        else if (_word == 7) {
-            _returnWord = enWord[_word - 1];
-        }
-        else if (_word == 8) {
-            _returnWord = enWord[_word - 1];
-        }
-        else if (_word == 9) {
-            _returnWord = enWord[_word - 1];
-        }
-        return "Le mot est: " + _returnWord;
+        return "Le mot est: " + enWord[_word - 1];
     }
 
     //cas de l'anglais
     else if (_lang == 2) {
-        if (_word == 1) {
-            _returnWord = frWord[_word - 1];
-        }
-        else if (_word == 2) {
-            _returnWord = frWord[_word - 1];
-        }
-        else if (_word == 3) {
-            _returnWord = frWord[_word - 1];
-        }
-        else if (_word == 4) {
-            _returnWord = frWord[_word - 1];
-        }
-        else if (_word == 5) {
-            _returnWord = frWord[_word - 1];
-        }
-        else if (_word == 6) {
-            _returnWord = frWord[_word - 1];
-        }
-        else if (_word == 7) {
-            _returnWord = frWord[_word - 1];
-        }
-        else if (_word == 8) {
-            _returnWord = frWord[_word - 1];
-        }
-        else if (_word == 9) {
-            _returnWord = frWord[_word - 1];
-        }
-        return "The word is: " + _returnWord;
+        return "The word is: " + frWord[_word - 1];
     }
 }
 #pragma endregion
