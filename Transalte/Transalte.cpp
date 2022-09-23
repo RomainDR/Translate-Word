@@ -93,12 +93,11 @@ void ShowMenuEn()
 /// <param name="_word">word selected</param>
 /// <returns>the word translated</returns>
 string WordSelected(int _lang, int _word) {
-
     //dans le cas du francais
-    if (_lang == 1) return "Le mot est: " + enWord[_word - 1];
+    if (_lang == 1) return "Le mot est: " + enWord[_word - 1];  
     //cas de l'anglais
-    else
-        return "The word is: " + frWord[_word - 1];
+    else 
+        return "The word is: " + frWord[_word - 1];    
 }
 #pragma endregion
 
